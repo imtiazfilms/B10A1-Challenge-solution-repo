@@ -274,18 +274,16 @@
     border-radius: 16px;
 }
 
-/* current target container style */
+/* target container style */
 .current-target-container {
     width: 1140px;
     height: 1437px;
     margin: 0 auto;
     margin-top: 151px;
-    border: 2px solid goldenrod;
 }
 .target-first-part {
     width: 1140px;
     height: 460px;
-    border: 2px solid red;
 }
 .skills {
     display: flex;
@@ -309,7 +307,7 @@
     padding: 0 144px 48px 144px;
 }
 .skills a {
-    text-decoration: none;
+    text-decoration: underline;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -376,7 +374,7 @@
     width: 364px;
     height: 299px;
     border-radius: 16px;
-    background: rgba(0, 76, 232, 0.05)
+    background: rgba(255, 223, 0, 0.05);
 }
 .js h4 {
     color: rgb(13, 19, 33);
@@ -399,4 +397,114 @@
     width: 284px;
     height: 219px;
     padding: 40px;
+}
+.next-target-container {
+    width: 1140px;
+    height: 866px;
+    margin-top: 111px;
+}
+.react {
+    width: 1140px;
+    height: 219px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255); 
+    margin-bottom: 24px;
+}
+.node {
+    width: 1140px;
+    height: 219px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);    
+    margin-bottom: 24px; 
+}
+.mongo {
+    width: 1140px;
+    height: 219px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255); 
+    margin-bottom: 24px;
+}
+.next-target-content h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center; 
+    padding-bottom: 24px;
+}
+.next-target-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    padding: 0px 144px 48px 144px;
+}
+.next-skills a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: underline;   
+}
+
+.react-main {
+    display: flex;
+    width: 1060px;
+    height: 139px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.next-skills h4 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+.next-skills p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.main-node {
+    display: flex;
+    width: 1060px;
+    height: 139px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.main-mongo {
+    display: flex;
+    width: 1060px;
+    height: 139px;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.react-content {
+    padding-left: 24px;
+
+}
+.node-content {
+    padding-right: 140px;
+}
+.main-mongo img {
+    margin-left: -25px;
+}
+.mongo-content {
+    padding-left: 25px;
 }
