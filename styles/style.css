@@ -277,7 +277,7 @@
 /* target container style */
 .current-target-container {
     width: 1140px;
-    height: 1437px;
+    height: 1500px;
     margin: 0 auto;
     margin-top: 151px;
 }
@@ -507,4 +507,61 @@
 }
 .mongo-content {
     padding-left: 25px;
+}
+
+/* support container style */
+.support-container {
+    width: 1050px;
+    height: 313px;
+    background: url(../assets/handshake.jpg);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    background-position: center;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    margin: 0 auto;
+    margin-top: 49px;
+    text-align: center;
+    
+}
+
+.support-container h4 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 16px 0px;
+    padding-top: 64px;
+    padding-bottom: 16px;
+}
+.support-container p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.support-container input {
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+
+}
+.support-container button {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 16px;
+    padding-bottom: 5px;
+}
+.support-container a {
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    text-align: center;
 }
